@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FinalProject"
+rootProject.name = "FinalProjectFlow"
 include ':app'
 include ':core'
 include ':benchmark'

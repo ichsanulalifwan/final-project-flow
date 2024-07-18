@@ -2,13 +2,34 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="AndroidStudioProjects.Project.FinalProjectFlow.app">
+        <State />
+      </entry>
+      <entry key="Barani-App.FinalProjectRxJava.app">
+        <State />
+      </entry>
+      <entry key="FinalProject.app">
+        <State />
+      </entry>
+      <entry key="FinalProjectFlow.FinalProjectRxJava.app">
+        <State />
+      </entry>
+      <entry key="FinalProjectFlow.app">
+        <State />
+      </entry>
       <entry key="FinalProjectRxJava.app">
         <State />
       </entry>
-      <entry key="RxJavaDatabaseBenchmark">
+      <entry key="FlowDatabaseBenchmark">
         <State />
       </entry>
-      <entry key="RxJavaIntegrationBenchmark">
+      <entry key="FlowIntegrationBenchmark">
+        <State />
+      </entry>
+      <entry key="FlowNetworkBenchmark">
+        <State />
+      </entry>
+      <entry key="Project.FinalProjectFlow.app">
         <State />
       </entry>
       <entry key="RxJavaNetworkBenchmark">
@@ -18,12 +39,6 @@
         <State />
       </entry>
       <entry key="app">
-        <State />
-      </entry>
-      <entry key="fetchNewsSingleRequestRxJava()">
-        <State />
-      </entry>
-      <entry key="integration1()">
         <State />
       </entry>
     </value>

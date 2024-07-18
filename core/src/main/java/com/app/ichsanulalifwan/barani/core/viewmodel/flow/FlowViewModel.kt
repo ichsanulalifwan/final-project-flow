@@ -29,7 +29,7 @@ import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 
-class CoroutinesViewModel(
+class FlowViewModel(
     application: Application,
     private val newsRepository: FlowNewsRepository,
     private val addressRepository: AddressRepository,
@@ -71,7 +71,9 @@ class CoroutinesViewModel(
                     isLoading.value = true
                 }
                 .catch { throwable ->
-                    message.value = context.getString(R.string.news_error)
+                    message.value = context.getString(
+                        R.string.news_error
+                    )
                     Log.e(LOG_TAG, "Error fetching top headlines", throwable)
                 }
                 .onCompletion {
